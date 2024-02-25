@@ -27,7 +27,7 @@ class consdest1{
     public static void main(String args[]){
         consdest1 n=new consdest1("gayi",89);
         consdest1 m=new consdest1();
-        System.out.println("fullname is:   "+n.name+"  sempercentage   "+n.percentage+"  college name  "+m.collegename+"  college code   "+m.collegecode);
+        System.out.println("fullname is:\n"+n.name+"  sempercentage  \n"+n.percentage+"  college name\n"+m.collegename+"  college code\n"+m.collegecode);
     }
     
 }
